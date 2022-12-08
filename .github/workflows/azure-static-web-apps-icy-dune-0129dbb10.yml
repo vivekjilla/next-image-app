@@ -24,6 +24,7 @@ jobs:
         env:
           VERBOSE: true
           API_UPLOAD_ENDPOINT: ${{ secrets.NEXT_IMAGE_APP_ENDPOINT }}
+          npm_config_platform: "win32"
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_DUNE_0129DBB10 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
