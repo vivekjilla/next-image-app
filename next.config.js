@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  output: 'standalone',
+  //output: 'standalone',
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
